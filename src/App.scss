@@ -1,0 +1,26 @@
+$accent-border: solid #787878 0.5px;
+
+.board-wrapper {
+  display: flex;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+
+  div {
+    margin-left: 15px;
+  }
+}
+
+.remaining-board-wrapper {
+  border: $accent-border;
+  margin-top: 50px;
+
+  .remaining-board-header {
+    height: 50px;
+    border: $accent-border;
+    padding: 5px;
+    font-weight: 600;
+  }
+}
